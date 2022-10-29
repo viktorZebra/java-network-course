@@ -12,8 +12,22 @@
     <artifactId>lesson1</artifactId>
 
     <properties>
+
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+
+
+        <!--Project libraries-->
+        <org.project.lombok>1.18.20</org.project.lombok>
+
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${org.project.lombok}</version>
+        </dependency>
+    </dependencies>
 
 </project>
